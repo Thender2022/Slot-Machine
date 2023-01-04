@@ -1,5 +1,47 @@
 body {
+    display: grid;
     height: 100vh;
-    width: 100wh;
-    background: orange;
+    width: 100vw;
+    background: blanchedalmond;
+    text-align: center;
+    
 }
+
+
+
+
+#app {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slots {
+    display: flex;
+   
+}
+
+.slot {
+    display: flex;
+    align-content:flex-end;
+    height: 125px;
+    width: 120px;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+
+.buttons {
+    display: grid;
+    margin: auto;  
+    align-items: center;
+    border: 2px solid;
+}
+
+
+
+
