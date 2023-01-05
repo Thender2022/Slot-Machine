@@ -49,20 +49,16 @@ resetButtonEl.addEventListener('click', handleResetButton);
 // /*----- functions -----*/
 function handlePlayButton() {
   winner = 1;
-  for (let i = 0; i < 3; i++) {
-    const index = Math.floor(Math.random() * items.length);
-    const slot = document.getElementById(`slot-${i}`);
-    const items = items[index];
-    slot.innerText = items;
-
-  }
 }
 
 function handleResetButton() {
   winner = 0;
 }
- 
+
 function generateSlotIndexes() {
+  
+    
+  }
   
 }
 
