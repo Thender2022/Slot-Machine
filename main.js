@@ -21,7 +21,9 @@ const items = [
 
 
 // /*----- state variables -----*/
-let winner;
+let winner = 0;
+// If winner equals 0 begin a knew game
+// if winner equals 1 the game is over
  
 
 
@@ -30,10 +32,14 @@ let winner;
 // /*----- cached elements  -----*/
 
 
-const slot = document.getElementById('slot');
-// const slot2 = document.getElementById('slot2');
-// const slot3 = documnet.getElementById('slot3');
-const playButton = document.getElementById('spin');
+const slot1El = document.querySelector('.slot1');
+const slot2El = document.querySelector('.slot2');
+const slot3El = document.querySelector('.slot3');
+const messageEl = document.querySelector('h2');
+
+const playButtonEl = document.getElementById('spin');
+const resetButtonEl = document.getElementById('reset');
+
 
 
 
