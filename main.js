@@ -49,21 +49,22 @@ resetButtonEl.addEventListener('click', handleResetButton);
 // /*----- functions -----*/
 function handlePlayButton() {
   winner = 1;
+  const slotIdx = [randNum(), randNum(), randNum()];
+  renderSlotImages(slotIdx);
 }
 
 function handleResetButton() {
   winner = 0;
 }
 
-function generateSlotIndexes() {
-  
-    
-  }
-  
+function randNum() {
+  return Math.floor(Math.random() * items.length);
 }
 
-function renderSlotImages() {
-
+function renderSlotImages(slotIdx) {
+  slot1El.innerHTML = items[slotIdx[0]]
+  slot2El.innerHTML = items[slotIdx[1]]
+  slot3El.innerHTML = items[slotIdx[2]]
 }
 
 function checkWinner() {
