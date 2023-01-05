@@ -4,26 +4,16 @@
 const items = [
   '🍭',
   '❌',
-  '⛄️',
-  '🦄',
-  '🍌',
-  '💩',
-  '👻',
-  '😻',
   '💵',
-  '🤡',    
-  '🦖',
-  '🍎',
-  '😂',
-  '🖕',
+  '🦖'
 ];
 
 
 
 // /*----- state variables -----*/
-let winner = 0;
-// If winner equals 0 begin a knew game the player just pressed reset
-// if winner equals 1 the game is over and the the player just pressed play
+let gameState = 0;
+// If gameState equals 0 begin a knew game the player just pressed reset
+// if gameState equals 1 the game is over and the the player just pressed play
 
 // /*----- cached elements  -----*/
 
@@ -40,21 +30,20 @@ const resetButtonEl = document.getElementById('reset');
 playButtonEl.addEventListener('click', handlePlayButton);
 resetButtonEl.addEventListener('click', handleResetButton);
 
-// 1. Randomly access 3 items from the array and render them to the DoM
-// 2. Cache a reference to those 3 items from the array
-// 3. Check if these 3 items match each other
-// 4. If they dont match the player loses money or say if they win
-
 
 // /*----- functions -----*/
 function handlePlayButton() {
-  winner = 1;
+  gameState = 1;
   const slotIdx = [randNum(), randNum(), randNum()];
   renderSlotImages(slotIdx);
+  const resultMessage = checkWinner(slotIdx);
+  renderMessage(resultMessage)
 }
 
 function handleResetButton() {
-  winner = 0;
+  gameState = 0;
+  renderSlotImages();
+  renderMessage();
 }
 
 function randNum() {
@@ -62,19 +51,33 @@ function randNum() {
 }
 
 function renderSlotImages(slotIdx) {
-  slot1El.innerHTML = items[slotIdx[0]]
-  slot2El.innerHTML = items[slotIdx[1]]
-  slot3El.innerHTML = items[slotIdx[2]]
+  if (gameState === 1) {
+    slot1El.innerHTML = items[slotIdx[0]]
+    slot2El.innerHTML = items[slotIdx[1]]
+    slot3El.innerHTML = items[slotIdx[2]]
+    } else {
+    slot1El.innerHTML = "?"
+    slot2El.innerHTML = "?"
+    slot3El.innerHTML = "?"
+  }
 }
 
-function checkWinner() {
-
+function checkWinner(slotIdx) {
+  let winMessage = ""
+  if (slotIdx[0] === slotIdx[1] && slotIdx[1] === slotIdx[2]) {
+    winMessage = "Jackpot!"
+    // messageEl.innerHTML = "Jackpot!"
+  } else {
+   winMessage = "Try Again!"
+  }
+  return winMessage; 
 }
 
-function renderMessage() {
-
+function renderMessage(winMessage) {
+  if (gameState === 1) {
+      messageEl.innerHTML = winMessage;
+    } else {
+      messageEl.innerHTML = "Spin The Bin!";
+  }
 }
 
-function init() {
-
-}
