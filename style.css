@@ -19,12 +19,14 @@ body {
     
 }
 
-.slots {
+#slot-machine {
     display: flex;
-   
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.slot {
+.slots {
     display: flex;
     align-content:flex-end;
     height: 125px;
@@ -35,6 +37,7 @@ body {
     
 }
 
+
 .buttons {
     display: grid;
     margin: auto;  
@@ -42,6 +45,10 @@ body {
     border: 2px solid;
 }
 
+button {
+    border-radius: 5px;
+    margin: 5px;
+}
 
 
 
