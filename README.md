@@ -6,15 +6,17 @@
 
 <p>Play the game here! ==> https://thender2022.github.io/Slot-Machine/</p>
 
-<p>The player will begin the game as soon as you click the play button.</p>
+<ol>
+<li><p>The player will begin the game as soon as you click the play button.</p></li>
 
 <!-- Screen Shot at starting phase -->
 
-<p>The player will be able to run the slot until they either dont get a match and receive the message "Try Again!" get a match in which the DOM will render the message "Jackpot!"</p>
+<li><p>The player will be able to run the slot until they either dont get a match and receive the message "Try Again!" get a match in which the DOM will render the message "Jackpot!"</p></li>
 
 <!-- Screen shot with jackpot -->
 
-<p>Then to conclude the game the user will be able either close the browser when they are finished playing or they can click the reset button so someone else can take a turn at with the slots.</p>
+<li><p>Then to conclude the game the user will be able either close the browser when they are finished playing or they can click the reset button so someone else can take a turn at with the slots.</p></li>
+</ol>
 
 <!-- screen shot with try again -->
 
