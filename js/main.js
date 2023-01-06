@@ -8,30 +8,21 @@ const items = [
   '🦖'
 ];
 
-
-
-// /*----- state variables -----*/
 let gameState = 0;
 // If gameState equals 0 begin a knew game the player just pressed reset
 // if gameState equals 1 the game is over and the the player just pressed play
-
-// /*----- cached elements  -----*/
-
 
 const slot1El = document.querySelector('.slot1');
 const slot2El = document.querySelector('.slot2');
 const slot3El = document.querySelector('.slot3');
 const messageEl = document.querySelector('h2');
-
 const playButtonEl = document.getElementById('spin');
 const resetButtonEl = document.getElementById('reset');
 
-// /*----- event listeners -----*/
 playButtonEl.addEventListener('click', handlePlayButton);
 resetButtonEl.addEventListener('click', handleResetButton);
 
 
-// /*----- functions -----*/
 function handlePlayButton() {
   gameState = 1;
   const slotIdx = [randNum(), randNum(), randNum()];
