@@ -2,9 +2,16 @@ body {
     display: grid;
     height: 100vh;
     width: 100vw;
-    background: blanchedalmond;
+    background: rgb(22, 153, 22);
     text-align: center;
-    
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 #app {
@@ -25,7 +32,6 @@ body {
 
 #slot-machine > div {
     display: flex;
-    align-content: ;
     justify-content: center;
     height: 125px;
     width: 120px;
@@ -35,6 +41,7 @@ body {
     font-size: 50px;
     text-align: center;
     flex-direction: column;
+    background: rgb(180, 31, 180);
 }
 
 
