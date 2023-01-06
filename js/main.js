@@ -66,7 +66,6 @@ function checkWinner(slotIdx) {
   let winMessage = ""
   if (slotIdx[0] === slotIdx[1] && slotIdx[1] === slotIdx[2]) {
     winMessage = "Jackpot!"
-    // messageEl.innerHTML = "Jackpot!"
   } else {
    winMessage = "Try Again!"
   }
