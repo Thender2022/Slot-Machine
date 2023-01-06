@@ -15,7 +15,7 @@
 
 <a href="https://lh3.googleusercontent.com/_NG2m94PEZhPC3p4zDBk5fmPPfasJcGlnzNPDp7nEnhwWGonxbYppym_S7IFJ_OVTlC8kncg5eV8lhJVFHZmb8m_gVIRx8g8LISxkpL5DaaV-TTHRsfOqj2rTtW8eyV4vZguNkVF=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/_NG2m94PEZhPC3p4zDBk5fmPPfasJcGlnzNPDp7nEnhwWGonxbYppym_S7IFJ_OVTlC8kncg5eV8lhJVFHZmb8m_gVIRx8g8LISxkpL5DaaV-TTHRsfOqj2rTtW8eyV4vZguNkVF=w600-h315-p-k" /> </a>
 
-<li><p>Then to conclude the game the user will be able either close the browser when they are finished playing or they can click the reset button so someone else can take a turn at with the slots.</p></li>
+<li><p>Then to conclude the game the user will be able to either close the browser when they are finished playing or they can click the reset button so someone else can take a turn at with the slots.</p></li>
 
 <a href="https://lh3.googleusercontent.com/3PQasdzax5GwHmxOEGIabktTWMppDwz4AyA6ARUqjgFN4G-S543Xd3Jnc_0gxgK12-BuYQBDSlO9M6qtb3LR9CFBuWQvQQVHAEYD2pMVK7qUhn6CiTvLBbhX8K0j4Zs071-ihpIl=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/3PQasdzax5GwHmxOEGIabktTWMppDwz4AyA6ARUqjgFN4G-S543Xd3Jnc_0gxgK12-BuYQBDSlO9M6qtb3LR9CFBuWQvQQVHAEYD2pMVK7qUhn6CiTvLBbhX8K0j4Zs071-ihpIl=w600-h315-p-k" /> </a>
 </ol>
