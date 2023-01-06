@@ -1,4 +1,4 @@
-// /*----- constants -----*/
+
 
 
 const items = [
@@ -9,8 +9,6 @@ const items = [
 ];
 
 let gameState = 0;
-// If gameState equals 0 begin a knew game the player just pressed reset
-// if gameState equals 1 the game is over and the the player just pressed play
 
 const slot1El = document.querySelector('.slot1');
 const slot2El = document.querySelector('.slot2');
