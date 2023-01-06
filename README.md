@@ -9,7 +9,7 @@
 <ol>
 <li><p>The player will begin the game as soon as you click the play button.</p></li>
 
-<!-- Screen Shot at starting phase -->
+<img src="https://photos.app.goo.gl/7qMxd7FywtGMzGPfA>
 
 <li><p>The player will be able to run the slot until they either dont get a match and receive the message "Try Again!" get a match in which the DOM will render the message "Jackpot!"</p></li>
 
